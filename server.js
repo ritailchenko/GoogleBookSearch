@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<books>:<1kaktusrastetvAfrike>@ds145926.mlab.com:45926/books");
 
 
 // Define API routes here
