@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://<books>:<1kaktusrastetvAfrike>@ds145926.mlab.com:45926/books");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<heroku_pcqf1fff>:<1kaktusrastetvAfrike>@ds145926.mlab.com:45926/heroku_pcqf1fff");
 
 
 // Define API routes here
